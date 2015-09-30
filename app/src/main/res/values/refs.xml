@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--This is the default fragment size-->
+<resources>
+  <!--The "type" attribute is what determines the inner class of the ID, its ID will be "R.layout"-->
+  <item name="activity_masterdetail" type="layout">@layout/activity_fragment</item>
+</resources>

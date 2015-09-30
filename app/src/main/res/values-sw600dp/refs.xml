@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--Use this fragment if the with is greater than 600dp-->
+<resources>
+  <item name="activity_masterdetail" type="layout">@layout/activity_twopane</item>
+</resources>

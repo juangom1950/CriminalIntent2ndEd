@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--This app namespace is used to specify the showAsAction attribute
+    This unusual namespace declaration exists for legacy reasons with the appCompat library. Pag 240-->
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+  <item
+    android:id="@+id/menu_item_new_crime"
+    android:icon="@mipmap/ic_menu_add"
+    android:title="@string/new_crime"
+    app:showAsAction="ifRoom|withText"/>
+  <!--<item android:id="@+id/menu_item_delete_crime"
+        android:icon="@drawable/ic_delete_crime"
+        android:title="@string/delete_crime"
+        app:showAsAction="ifRoom|withText"  />-->
+
+  <item
+    android:id="@+id/menu_item_show_subtitle"
+    android:title="@string/show_subtitle"
+    app:showAsAction="ifRoom"/>
+
+</menu>
